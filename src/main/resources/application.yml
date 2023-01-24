@@ -1,0 +1,8 @@
+server:
+  port: 8082
+
+#eureka:#  client:#    fetch-registry: true#    register-with-eureka: true##  instance:##    appname: 
+#    
+spring:  datasource:    username: postgres    url: jdbc:postgresql://localhost:5432/Cowin
+    password: root  jpa:    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+    hibernate:      ddl-auto: update  application:    name: VACCINE-SERVICE
